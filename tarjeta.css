@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+    background-color: hsl(185, 75%, 39%);
+    justify-content: center;
+    align-items: center;
+    width: 99w;
+    height: 45vw;
+    z-index: 0;
+    background-repeat: no-repeat;
+
+}
+
+/* #principal {
+} */
+
+#top {
+    position: absolute;
+    margin-left: -115vh;
+    margin-top: -150vh;
+}
+
+#bottom {
+    position: absolute;
+    margin-left: 15vh;
+    margin-top: 5vh;
+}
+
+#tarjeta {    
+    border-radius: 15px;
+    width: 350px;
+    height: 370px;
+    z-index: 1;
+    background-color: white;
+}
+
+img {
+    border-radius: 15px 15px 0 0;
+} 
+
+.persona img{
+    border-radius: 50%;
+    margin: -55px 0 0 125px;     
+    border: 5px solid white;
+}
+
+#encabezado {
+    flex-wrap: nowrap;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+p {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(229, 23%, 23%);
+}
+
+#nombre {
+    font-weight: 700;
+    margin-right: 12px;
+}
+
+#edad {
+    color: hsl(227, 10%, 46%);
+}
+
+#ciudad {
+    color: hsl(227, 10%, 46%);
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    font-size: 14px;
+}
+
+#inferior {
+    margin-top: 10px;
+    border-top: 0.1vw groove hsl(229, 24%, 87%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 10px;
+}
+
+.datos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.cantidad {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: -20px;
+}
+
+.descripcion {
+    color: hsl(227, 10%, 46%);
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 800px) {
+
+    body {
+        display: flex;
+        height: 665px;
+        width: 375;
+        overflow: hidden;
+    }
+}  
